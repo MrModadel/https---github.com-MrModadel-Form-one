@@ -7,6 +7,7 @@
 
 .container {
   max-width: 400px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -92,4 +93,28 @@
   text-decoration: none;
   margin: 20px 0px 0px 0px;
   color: #000;
+}
+
+@media (max-width: 386px) {
+  .form__input {
+    width: 300px;
+  }
+  .form__block {
+    display: grid;
+    grid-template-columns: repeat(6, 35px);
+    gap: 5px;
+  }
+  .form__button {
+    width: 300px;
+    font-size: 12px;
+  }
+  .form__box {
+    margin: 0px 0px 0px -160px;
+  }
+  .nav {
+    gap: 5px;
+  }
+  .nav__item {
+    font-size: 11px;
+  }
 }
