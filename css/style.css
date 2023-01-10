@@ -73,6 +73,7 @@
   color: white;
   font-size: 14px;
   margin: 10px 0px 0px 0px;
+  cursor: pointer;
 }
 .form__button-back:hover {
   background-color: #20a77d;
