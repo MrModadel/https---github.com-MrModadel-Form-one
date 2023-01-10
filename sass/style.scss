@@ -67,7 +67,6 @@
    }
    &__button {
       width: 380px;
-      margin: 0 auto;
       background-color: #0dcf93;
       border: 0;
       border-radius: 3px;
@@ -76,7 +75,7 @@
       font-size: 14px;
       margin: 10px 0px 0px 0px ;
    }
-   .form__button_back:hover {
+   &__button_back:hover {
       background-color: #09563d;
    }
 }
